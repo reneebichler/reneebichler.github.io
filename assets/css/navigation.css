@@ -162,7 +162,7 @@ h3 {
 	#st-box {
 		float:left;  
     	background: url("images/48A9ACC1-F1AF-493F-A607-E7D7ED9CC82B_1_201_a.jpg");
-    	border: 1px solid #FFD300;
+    	border: 1px solid blue;
     	width: 60%; 
     	height: 10vh;
     	}
