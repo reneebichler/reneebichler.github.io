@@ -239,7 +239,7 @@ canvas {
 	.container {
 		width:90%; 
         min-height: 90vh;
-    	background-color: red;    			
+    	background-color: transparent;    			
     	padding-top:1%; 
         padding-left:1%; 
         padding-right:1%; 
@@ -248,7 +248,7 @@ canvas {
 	#st-box {
 		float:left;  
     	background: url("images/48A9ACC1-F1AF-493F-A607-E7D7ED9CC82B_1_201_a.jpg");
-    	border: 1px solid blue;
+    	border: 1px solid #FFD300;
     	width: 60%; 
     	height: 10vh;
     	}
