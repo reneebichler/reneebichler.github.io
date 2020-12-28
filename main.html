@@ -17,7 +17,7 @@
       			}
       			
 			.header {
-  				padding: 300px;
+  				padding: 100%;
   				text-align: center;
   				background: url("images/sunrise-1765027_1920.jpg");
   				color: white;
@@ -40,9 +40,9 @@
 				width:70%; 
         		min-height: 65vh;
         		background-color: transparent;
-        		padding-top:20px; 
-        		padding-left:15px; 
-        		padding-right:15px; 
+        		padding-top:5%; 
+        		padding-left:5%; 
+        		padding-right:5%; 
         		position: relative;
         		} 
 				#st-box {
@@ -50,7 +50,7 @@
     			background: url("images/48A9ACC1-F1AF-493F-A607-E7D7ED9CC82B_1_201_a.jpg");
     			border: 1px solid #FFD300;
     			width:32.5%; 
-    			height:430px;
+    			height:60%;
     			} 
     			#nd-box{ 
     			float:left;  
@@ -116,7 +116,7 @@
     		h1 {
     			color: white;
     			text-align: center;
-    			font-size: 800%;
+    			font-size: 700%;
     			font-family: "Fredericka the Great";
     			}
     			
@@ -135,8 +135,11 @@
     			
     		@media screen and (max-width: 1680px) {
 				body {
-					font-size: 13pt;
-					}
+					margin: 0 auto;
+         			background: black;
+         			background-position:center;
+         			background-size: contain;
+      				}
 				}
 
 
@@ -147,10 +150,30 @@
 				}
 
 			@media screen and (max-width: 736px) {
-				body, input, select, textarea {
-					font-size: 11pt;
-					letter-spacing: 0.0375em;
+				body {
+					margin: 0 auto;
+         			background: black;
+         			background-position:center;
+         			background-size: contain;
+      				}
+      			.header {
+  					padding: 300px;
+  					text-align: center;
+  					background: url("images/sunrise-1765027_1920.jpg");
+  					color: white;
 					}
+				.footer {
+  					padding: 500px;
+  					text-align: center;
+  					background: url("images/Space_Shuttle.jpg");
+  					color: white;
+  					
+					}
+				#footer {
+  					position: absolute;
+  					bottom: 0;
+  					width: 100%;
+					}	
 				.container {
 					width:100%; 
         			min-height: 65vh;
@@ -205,13 +228,13 @@
     			h1 {
     				color: white;
     				text-align: center;
-    				font-size: 400%;
+    				font-size: 300%;
     				font-family: "Fredericka the Great";
     				}
     			h2 {
 					color: white;
 					text-align: center;
-					font-size: 200%;
+					font-size:150%;
 					font-family: "Fredericka the Great";
 					}
 				h3 {
