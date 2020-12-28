@@ -80,7 +80,7 @@ body {
     height: 41vh;	
     }
 #st-box:hover {
-    background: blue;
+    background: #FFD300;
 	}
 #nd-box:hover {
     background: #FFD300;
@@ -124,7 +124,7 @@ h3 {
     			
 				
 
-/*@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {
 	body {
 		margin: 0 auto;
         background: black;
@@ -219,4 +219,4 @@ h3 {
     	font-size: 1.1em;
     	font-family: "Fredericka the Great";
     	}
-    } */
+    }
