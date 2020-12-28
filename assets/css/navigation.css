@@ -151,9 +151,9 @@ h3 {
 		}
 						
 	.container {
-		width:100%; 
-        min-height: 150vh;
-    	background-color: transparent;    			
+		width:90%; 
+        min-height: 90vh;
+    	background-color: red;    			
     	padding-top:1%; 
         padding-left:1%; 
         padding-right:1%; 
